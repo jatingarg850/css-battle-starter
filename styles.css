@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.background {
+    background-color: yellow;
+    width: 800px;
+    height: 800px;
+   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5), inset 5px 5px 10px #000000;   
+}
 body {
     display: flex;
     justify-content: center;
@@ -21,15 +26,35 @@ body {
 /* write your CSS here */
 
 .shape {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    margin: 20px auto;
-}
-
-.card {
-    width: 300px;
+    width: 200px;
     height: 200px;
-    background-color: #ddd;
+    position: absolute;
+    left :600px;
+    top:300px;
+    background-color: red;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5), inset 5px 5px 10px #000000;   
+    border-radius: 100%;
+}
+.shape2{
+     width: 200px;
+    height: 200px;
+    position: absolute;
+   right: 600px;
+   top:300px;
+    background-color: blue;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5), inset 5px 5px 10px #000000;   
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5), inset 5px 5px 10px #000000;   
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    
+}
+.card {
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    top:600px;
+    left:500px;
+    background-color: green;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5), inset 5px 5px 10px #000000;   
     margin: 20px auto;
+    
 }
